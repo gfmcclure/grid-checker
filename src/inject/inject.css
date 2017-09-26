@@ -1,0 +1,99 @@
+.ibm-grid-checker__cols,
+.ibm-grid-checker__rows {
+  bottom: 0;
+  justify-content: space-between;
+  left: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100vw;
+}
+
+.ibm-grid-checker__cols {
+  display: flex;
+  margin: auto;
+  max-width: 1650px;
+}
+
+.ibm-grid-checker__rows {
+  flex-direction: column;
+}
+
+.ibm-grid-checker__cols__unit,
+.ibm-grid-checker__rows__unit {
+  flex: 1;
+}
+
+.ibm-grid-checker__cols__unit  {
+  border-right: 1px solid #eaeaea;
+  opacity: .25;
+}
+
+.ibm-grid-checker__rows__unit  {
+  border-bottom: 1px solid #eaeaea;
+  height: calc(100vw / 64);
+}
+
+.ibm-grid-checker__cols__unit:nth-child(n+6):nth-child(-n+29),
+.ibm-grid-checker__cols__unit:nth-child(n+38):nth-child(-n+61) {
+  background: #b4b4b4;
+}
+
+.ibm-grid-checker__cols__unit--outside {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .ibm-grid-checker__cols__unit:nth-child(n+6):nth-child(-n+29),
+  .ibm-grid-checker__cols__unit:nth-child(n+38):nth-child(-n+61) {
+    background: none;
+  }
+
+
+  .ibm-grid-checker__cols__unit:nth-child(n+4):nth-child(-n+15),
+  .ibm-grid-checker__cols__unit:nth-child(n+20):nth-child(-n+31),
+  .ibm-grid-checker__cols__unit:nth-child(n+36):nth-child(-n+47),
+  .ibm-grid-checker__cols__unit:nth-child(n+52):nth-child(-n+63) {
+    background: #b4b4b4;
+  }
+}
+
+@media (min-width: 1056px) {
+  .ibm-grid-checker__cols__unit:nth-child(n+4):nth-child(-n+15),
+  .ibm-grid-checker__cols__unit:nth-child(n+20):nth-child(-n+31),
+  .ibm-grid-checker__cols__unit:nth-child(n+36):nth-child(-n+47),
+  .ibm-grid-checker__cols__unit:nth-child(n+52):nth-child(-n+63) {
+    background: none;
+  }
+
+  .ibm-grid-checker__cols__unit:first-child,
+  .ibm-grid-checker__cols__unit:nth-child(n+3):nth-child(-n+8),
+  .ibm-grid-checker__cols__unit:nth-child(n+11):nth-child(-n+16),
+  .ibm-grid-checker__cols__unit:nth-child(n+19):nth-child(-n+24),
+  .ibm-grid-checker__cols__unit:nth-child(n+27):nth-child(-n+32),
+  .ibm-grid-checker__cols__unit:nth-child(n+35):nth-child(-n+40),
+  .ibm-grid-checker__cols__unit:nth-child(n+43):nth-child(-n+48),
+  .ibm-grid-checker__cols__unit:nth-child(n+51):nth-child(-n+56),
+  .ibm-grid-checker__cols__unit:nth-child(n+59):nth-child(-n+64),
+  .ibm-grid-checker__cols__unit:last-child {
+    background: #b4b4b4;
+  }
+
+
+  .ibm-grid-checker__cols__unit--outside {
+    display: initial;
+  }
+
+  .ibm-grid-checker__rows__unit  {
+    height: calc(100vw / 66);
+    max-height: 25px;
+  }
+}
+
+@media (min-width: 1650px) {
+  .ibm-grid-checker__cols {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
