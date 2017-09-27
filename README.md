@@ -2,7 +2,7 @@
 
 Check how any page lines up with [IBM Grid](https://github.com/IBM/grid). Just press CTRL+G.
 
-![Browser demonstration of IBM Grid Checker](ibm-grid-checker.gif?raw=true)
+![Browser demonstration of IBM Grid Checker](/ibm-grid-checker.gif?raw=true)
 
 ---
 
