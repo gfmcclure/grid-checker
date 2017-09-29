@@ -40,6 +40,19 @@
   background: #b4b4b4;
 }
 
+.ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+6):nth-child(-n+29),
+.ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+38):nth-child(-n+61) {
+  background: none;
+}
+
+
+.ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+6):nth-child(-n+13),
+.ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+22):nth-child(-n+29),
+.ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+38):nth-child(-n+45),
+.ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+54):nth-child(-n+61) {
+  background: #b4b4b4;
+}
+
 .ibm-grid-checker__cols__unit--outside {
   display: none;
 }
@@ -55,6 +68,25 @@
   .ibm-grid-checker__cols__unit:nth-child(n+20):nth-child(-n+31),
   .ibm-grid-checker__cols__unit:nth-child(n+36):nth-child(-n+47),
   .ibm-grid-checker__cols__unit:nth-child(n+52):nth-child(-n+63) {
+    background: #b4b4b4;
+  }
+  
+  
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+4):nth-child(-n+15),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+20):nth-child(-n+31),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+36):nth-child(-n+47),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+52):nth-child(-n+63) {
+    background: none;
+  }
+
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+4):nth-child(-n+7),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+12):nth-child(-n+15),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+20):nth-child(-n+23),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+28):nth-child(-n+31),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+36):nth-child(-n+39),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+44):nth-child(-n+47),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+52):nth-child(-n+55),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+60):nth-child(-n+63) {
     background: #b4b4b4;
   }
 }
@@ -77,6 +109,36 @@
   .ibm-grid-checker__cols__unit:nth-child(n+51):nth-child(-n+56),
   .ibm-grid-checker__cols__unit:nth-child(n+59):nth-child(-n+64),
   .ibm-grid-checker__cols__unit:last-child {
+    background: #b4b4b4;
+  }
+
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+3):nth-child(-n+8),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+11):nth-child(-n+16),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+19):nth-child(-n+24),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+27):nth-child(-n+32),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+35):nth-child(-n+40),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+43):nth-child(-n+48),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+51):nth-child(-n+56),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+59):nth-child(-n+64) {
+    background: none;
+  }
+
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+3):nth-child(-n+4),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+7):nth-child(-n+8),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+11):nth-child(-n+12),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+15):nth-child(-n+16),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+19):nth-child(-n+20),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+23):nth-child(-n+24),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+27):nth-child(-n+28),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+31):nth-child(-n+32),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+35):nth-child(-n+36),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+39):nth-child(-n+40),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+43):nth-child(-n+44),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+47):nth-child(-n+48),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+51):nth-child(-n+52),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+55):nth-child(-n+56),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+59):nth-child(-n+60),
+  .ibm-grid-checker__cols--secondary .ibm-grid-checker__cols__unit:nth-child(n+63):nth-child(-n+64) {
     background: #b4b4b4;
   }
 

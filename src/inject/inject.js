@@ -42,13 +42,25 @@ function toggleGrid(e) {
 			document.body.appendChild(rowContainer);
 		} else if (
 			document.body.contains(colContainer) &&
+			document.body.contains(rowContainer) &&
+			!colContainer.classList.contains('ibm-grid-checker__cols--secondary')
+		) {
+			colContainer.classList.add('ibm-grid-checker__cols--secondary');
+		} else if (
+			document.body.contains(colContainer) &&
 			document.body.contains(rowContainer)
 		) {
+			colContainer.classList.remove('ibm-grid-checker__cols--secondary');
 			rowContainer.remove();
 		} else if (
+			!colContainer.classList.contains('ibm-grid-checker__cols--secondary')
+		) {
+			colContainer.classList.add('ibm-grid-checker__cols--secondary');
+	 	} else if (
 			document.body.contains(colContainer) &&
 			!document.body.contains(rowContainer)
 		) {
+			colContainer.classList.remove('ibm-grid-checker__cols--secondary');
 			colContainer.remove();
 		}
 	}
