@@ -24,7 +24,7 @@ The browser extension will not be listed publically until the launch of the IBM 
 
 ### Firefox
 
-1. Right click and select `Save link as` on this [extension file link](https://github.com/IBM/grid-checker/raw/master/ibm_grid_checker-0.0.10-an+fx.xpi)
+1. Right click and select `Save link as` on this [extension file link](https://github.com/IBM/grid-checker/raw/master/ibm_grid_checker-0.0.11-an+fx.xpi)
 2. Copy and paste `about:addons` into your url bar or find the Add-ons link in the Firefox hamburger menu
 3. Click the cog icon on the page and select `Install Add-on From File`
 4. Select the file you just downloaded
