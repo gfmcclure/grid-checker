@@ -1,13 +1,30 @@
 .ibm-grid-checker__cols,
+.ibm-grid-checker__rows,
+.ibm-grid-checker__state {
+  pointer-events: none;
+  position: fixed;
+  z-index: 9999;
+}
+
+.ibm-grid-checker__cols,
 .ibm-grid-checker__rows {
   bottom: 0;
   justify-content: space-between;
   left: 0;
-  pointer-events: none;
-  position: fixed;
   top: 0;
-  z-index: 9999;
   width: 100vw;
+}
+
+.ibm-grid-checker__state {
+  background: #000;
+  box-sizing: border-box;
+  bottom: 0;
+  color: #fff;
+  font-family: "ibm-grid-checker-plex";
+  margin: 0;
+  padding: 3.125vw 6.25vw;
+  right: 0;
+  width: 50vw;
 }
 
 .ibm-grid-checker__cols {
@@ -58,6 +75,11 @@
 }
 
 @media (min-width: 640px) {
+  .ibm-grid-checker__state {
+    padding: 1.5625vw 3.125vw;
+    width: 25vw;
+  }
+
   .ibm-grid-checker__cols__unit:nth-child(n+6):nth-child(-n+29),
   .ibm-grid-checker__cols__unit:nth-child(n+38):nth-child(-n+61) {
     background: none;
@@ -92,6 +114,11 @@
 }
 
 @media (min-width: 1056px) {
+  .ibm-grid-checker__state {
+    padding: 1.5151vw 3.0303vw 1.5151vw 1.5151vw;
+    width: 13.6363vw;
+  }
+
   .ibm-grid-checker__cols__unit:nth-child(n+4):nth-child(-n+15),
   .ibm-grid-checker__cols__unit:nth-child(n+20):nth-child(-n+31),
   .ibm-grid-checker__cols__unit:nth-child(n+36):nth-child(-n+47),
